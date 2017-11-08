@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		359A12FC1FB2A7650091948A /* XCNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12D21FB2A7650091948A /* XCNormalFooter.m */; };
+		359A12FD1FB2A7650091948A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12D31FB2A7650091948A /* BaseViewController.m */; };
+		359A12FE1FB2A7650091948A /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12D51FB2A7650091948A /* BaseNavigationController.m */; };
+		359A12FF1FB2A7650091948A /* XCNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12D71FB2A7650091948A /* XCNormalHeader.m */; };
+		359A13001FB2A7650091948A /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12D91FB2A7650091948A /* MBProgressHUD+Extension.m */; };
+		359A13011FB2A7650091948A /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12DB1FB2A7650091948A /* BaseTabBarController.m */; };
+		359A13021FB2A7650091948A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 359A12DC1FB2A7650091948A /* MBProgressHUD.bundle */; };
+		359A13031FB2A7650091948A /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12E01FB2A7650091948A /* FLAnimatedImageView+WebCache.m */; };
+		359A13041FB2A7650091948A /* UIView+XCCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12E21FB2A7650091948A /* UIView+XCCornerRadius.m */; };
+		359A13051FB2A7650091948A /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12E51FB2A7650091948A /* UIImage+Category.m */; };
+		359A13061FB2A7650091948A /* UIButton+XCHelperBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12E71FB2A7650091948A /* UIButton+XCHelperBlock.m */; };
+		359A13071FB2A7650091948A /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12E81FB2A7650091948A /* UIView+Layout.m */; };
+		359A13081FB2A7650091948A /* UIButton+timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12EB1FB2A7650091948A /* UIButton+timer.m */; };
+		359A13091FB2A7650091948A /* NSString+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12EC1FB2A7650091948A /* NSString+XCHelper.m */; };
+		359A130A1FB2A7650091948A /* NSArray+SafeExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12ED1FB2A7650091948A /* NSArray+SafeExtension.m */; };
+		359A130B1FB2A7650091948A /* UILabel+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12EE1FB2A7650091948A /* UILabel+XCHelper.m */; };
+		359A130C1FB2A7650091948A /* UICollectionView+XCPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12F01FB2A7650091948A /* UICollectionView+XCPlaceholderView.m */; };
+		359A130D1FB2A7650091948A /* UIView+XCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12F21FB2A7650091948A /* UIView+XCHelper.m */; };
+		359A130E1FB2A7650091948A /* UIAlertController+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12F41FB2A7650091948A /* UIAlertController+Color.m */; };
+		359A130F1FB2A7650091948A /* UITableView+XCPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12FA1FB2A7650091948A /* UITableView+XCPlaceholderView.m */; };
+		359A13101FB2A7650091948A /* NSObject+XCMethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 359A12FB1FB2A7650091948A /* NSObject+XCMethodSwizzle.m */; };
+		35ACF5F01FB2921100AB826E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACF5EF1FB2921100AB826E /* AppDelegate.m */; };
+		35ACF5F31FB2921100AB826E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACF5F21FB2921100AB826E /* ViewController.m */; };
+		35ACF5F61FB2921100AB826E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACF5F41FB2921100AB826E /* Main.storyboard */; };
+		35ACF5F81FB2921100AB826E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35ACF5F71FB2921100AB826E /* Assets.xcassets */; };
+		35ACF5FB1FB2921100AB826E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35ACF5F91FB2921100AB826E /* LaunchScreen.storyboard */; };
+		35ACF5FE1FB2921100AB826E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACF5FD1FB2921100AB826E /* main.m */; };
+		35ACF6081FB2921100AB826E /* FF14__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACF6071FB2921100AB826E /* FF14__Tests.m */; };
+		35ACF6131FB2921100AB826E /* FF14__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35ACF6121FB2921100AB826E /* FF14__UITests.m */; };
+		40EFC7DED724AE63401479B2 /* Pods_FF14__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94425A392BD6E99072D8EE19 /* Pods_FF14__.framework */; };
+		6C7BCF0D9461F654E8F98276 /* Pods_FF14__Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909AE5E9BE0A859E3F10D1BF /* Pods_FF14__Tests.framework */; };
+		DE9BE5711B38E24D4C6954B4 /* Pods_FF14__UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512BAD4E416FD702CAF7F82F /* Pods_FF14__UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35ACF6041FB2921100AB826E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35ACF5E31FB2921000AB826E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35ACF5EA1FB2921100AB826E;
+			remoteInfo = "FF14百科";
+		};
+		35ACF60F1FB2921100AB826E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35ACF5E31FB2921000AB826E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35ACF5EA1FB2921100AB826E;
+			remoteInfo = "FF14百科";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127171F94041A7028C6EE487 /* Pods-FF14百科.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科.debug.xcconfig"; sourceTree = "<group>"; };
+		35860529C253FE4A2E53BE30 /* Pods-FF14百科.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科.release.xcconfig"; sourceTree = "<group>"; };
+		359A12CE1FB2A6F10091948A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		359A12CF1FB2A7160091948A /* AppUIInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUIInformation.h; sourceTree = "<group>"; };
+		359A12D01FB2A72D0091948A /* AppInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppInformation.h; sourceTree = "<group>"; };
+		359A12D21FB2A7650091948A /* XCNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalFooter.m; sourceTree = "<group>"; };
+		359A12D31FB2A7650091948A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		359A12D41FB2A7650091948A /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		359A12D51FB2A7650091948A /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		359A12D61FB2A7650091948A /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		359A12D71FB2A7650091948A /* XCNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNormalHeader.m; sourceTree = "<group>"; };
+		359A12D81FB2A7650091948A /* XCNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalHeader.h; sourceTree = "<group>"; };
+		359A12D91FB2A7650091948A /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		359A12DA1FB2A7650091948A /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		359A12DB1FB2A7650091948A /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		359A12DC1FB2A7650091948A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		359A12DD1FB2A7650091948A /* XCNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNormalFooter.h; sourceTree = "<group>"; };
+		359A12DE1FB2A7650091948A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		359A12E01FB2A7650091948A /* FLAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
+		359A12E11FB2A7650091948A /* UICollectionView+XCPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+XCPlaceholderView.h"; sourceTree = "<group>"; };
+		359A12E21FB2A7650091948A /* UIView+XCCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCCornerRadius.m"; sourceTree = "<group>"; };
+		359A12E31FB2A7650091948A /* UILabel+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XCHelper.h"; sourceTree = "<group>"; };
+		359A12E41FB2A7650091948A /* UIAlertController+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Color.h"; sourceTree = "<group>"; };
+		359A12E51FB2A7650091948A /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		359A12E61FB2A7650091948A /* UIView+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCHelper.h"; sourceTree = "<group>"; };
+		359A12E71FB2A7650091948A /* UIButton+XCHelperBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+XCHelperBlock.m"; sourceTree = "<group>"; };
+		359A12E81FB2A7650091948A /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		359A12E91FB2A7650091948A /* NSObject+XCMethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XCMethodSwizzle.h"; sourceTree = "<group>"; };
+		359A12EA1FB2A7650091948A /* UITableView+XCPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XCPlaceholderView.h"; sourceTree = "<group>"; };
+		359A12EB1FB2A7650091948A /* UIButton+timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+timer.m"; sourceTree = "<group>"; };
+		359A12EC1FB2A7650091948A /* NSString+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XCHelper.m"; sourceTree = "<group>"; };
+		359A12ED1FB2A7650091948A /* NSArray+SafeExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeExtension.m"; sourceTree = "<group>"; };
+		359A12EE1FB2A7650091948A /* UILabel+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XCHelper.m"; sourceTree = "<group>"; };
+		359A12EF1FB2A7650091948A /* UIView+XCCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCCornerRadius.h"; sourceTree = "<group>"; };
+		359A12F01FB2A7650091948A /* UICollectionView+XCPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+XCPlaceholderView.m"; sourceTree = "<group>"; };
+		359A12F11FB2A7650091948A /* FLAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
+		359A12F21FB2A7650091948A /* UIView+XCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCHelper.m"; sourceTree = "<group>"; };
+		359A12F31FB2A7650091948A /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		359A12F41FB2A7650091948A /* UIAlertController+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Color.m"; sourceTree = "<group>"; };
+		359A12F51FB2A7650091948A /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		359A12F61FB2A7650091948A /* UIButton+XCHelperBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+XCHelperBlock.h"; sourceTree = "<group>"; };
+		359A12F71FB2A7650091948A /* NSArray+SafeExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeExtension.h"; sourceTree = "<group>"; };
+		359A12F81FB2A7650091948A /* NSString+XCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XCHelper.h"; sourceTree = "<group>"; };
+		359A12F91FB2A7650091948A /* UIButton+timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+timer.h"; sourceTree = "<group>"; };
+		359A12FA1FB2A7650091948A /* UITableView+XCPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XCPlaceholderView.m"; sourceTree = "<group>"; };
+		359A12FB1FB2A7650091948A /* NSObject+XCMethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XCMethodSwizzle.m"; sourceTree = "<group>"; };
+		35ACF5EB1FB2921100AB826E /* FF14百科.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FF14百科.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ACF5EE1FB2921100AB826E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35ACF5EF1FB2921100AB826E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35ACF5F11FB2921100AB826E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35ACF5F21FB2921100AB826E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35ACF5F51FB2921100AB826E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35ACF5F71FB2921100AB826E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35ACF5FA1FB2921100AB826E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35ACF5FC1FB2921100AB826E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35ACF5FD1FB2921100AB826E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35ACF6031FB2921100AB826E /* FF14百科Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FF14百科Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ACF6071FB2921100AB826E /* FF14__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF14__Tests.m; sourceTree = "<group>"; };
+		35ACF6091FB2921100AB826E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35ACF60E1FB2921100AB826E /* FF14百科UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FF14百科UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ACF6121FB2921100AB826E /* FF14__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FF14__UITests.m; sourceTree = "<group>"; };
+		35ACF6141FB2921100AB826E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512BAD4E416FD702CAF7F82F /* Pods_FF14__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FF14__UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEE87A5390218F15E1F57C0 /* Pods-FF14百科UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科UITests/Pods-FF14百科UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		880F7801DE9BC5E48620289E /* Pods-FF14百科Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科Tests/Pods-FF14百科Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA9520394E0E5A8FCE2290A /* Pods-FF14百科UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科UITests/Pods-FF14百科UITests.release.xcconfig"; sourceTree = "<group>"; };
+		909AE5E9BE0A859E3F10D1BF /* Pods_FF14__Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FF14__Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E4F7E2F50A9B83E3BA0163 /* Pods-FF14百科Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF14百科Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF14百科Tests/Pods-FF14百科Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94425A392BD6E99072D8EE19 /* Pods_FF14__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FF14__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35ACF5E81FB2921100AB826E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFC7DED724AE63401479B2 /* Pods_FF14__.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF6001FB2921100AB826E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7BCF0D9461F654E8F98276 /* Pods_FF14__Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF60B1FB2921100AB826E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9BE5711B38E24D4C6954B4 /* Pods_FF14__UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359A12D11FB2A7650091948A /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				359A12D21FB2A7650091948A /* XCNormalFooter.m */,
+				359A12D31FB2A7650091948A /* BaseViewController.m */,
+				359A12D41FB2A7650091948A /* BaseTabBarController.h */,
+				359A12D51FB2A7650091948A /* BaseNavigationController.m */,
+				359A12D61FB2A7650091948A /* MBProgressHUD+Extension.h */,
+				359A12D71FB2A7650091948A /* XCNormalHeader.m */,
+				359A12D81FB2A7650091948A /* XCNormalHeader.h */,
+				359A12D91FB2A7650091948A /* MBProgressHUD+Extension.m */,
+				359A12DA1FB2A7650091948A /* BaseNavigationController.h */,
+				359A12DB1FB2A7650091948A /* BaseTabBarController.m */,
+				359A12DC1FB2A7650091948A /* MBProgressHUD.bundle */,
+				359A12DD1FB2A7650091948A /* XCNormalFooter.h */,
+				359A12DE1FB2A7650091948A /* BaseViewController.h */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		359A12DF1FB2A7650091948A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				359A12E01FB2A7650091948A /* FLAnimatedImageView+WebCache.m */,
+				359A12E11FB2A7650091948A /* UICollectionView+XCPlaceholderView.h */,
+				359A12E21FB2A7650091948A /* UIView+XCCornerRadius.m */,
+				359A12E31FB2A7650091948A /* UILabel+XCHelper.h */,
+				359A12E41FB2A7650091948A /* UIAlertController+Color.h */,
+				359A12E51FB2A7650091948A /* UIImage+Category.m */,
+				359A12E61FB2A7650091948A /* UIView+XCHelper.h */,
+				359A12E71FB2A7650091948A /* UIButton+XCHelperBlock.m */,
+				359A12E81FB2A7650091948A /* UIView+Layout.m */,
+				359A12E91FB2A7650091948A /* NSObject+XCMethodSwizzle.h */,
+				359A12EA1FB2A7650091948A /* UITableView+XCPlaceholderView.h */,
+				359A12EB1FB2A7650091948A /* UIButton+timer.m */,
+				359A12EC1FB2A7650091948A /* NSString+XCHelper.m */,
+				359A12ED1FB2A7650091948A /* NSArray+SafeExtension.m */,
+				359A12EE1FB2A7650091948A /* UILabel+XCHelper.m */,
+				359A12EF1FB2A7650091948A /* UIView+XCCornerRadius.h */,
+				359A12F01FB2A7650091948A /* UICollectionView+XCPlaceholderView.m */,
+				359A12F11FB2A7650091948A /* FLAnimatedImageView+WebCache.h */,
+				359A12F21FB2A7650091948A /* UIView+XCHelper.m */,
+				359A12F31FB2A7650091948A /* UIImage+Category.h */,
+				359A12F41FB2A7650091948A /* UIAlertController+Color.m */,
+				359A12F51FB2A7650091948A /* UIView+Layout.h */,
+				359A12F61FB2A7650091948A /* UIButton+XCHelperBlock.h */,
+				359A12F71FB2A7650091948A /* NSArray+SafeExtension.h */,
+				359A12F81FB2A7650091948A /* NSString+XCHelper.h */,
+				359A12F91FB2A7650091948A /* UIButton+timer.h */,
+				359A12FA1FB2A7650091948A /* UITableView+XCPlaceholderView.m */,
+				359A12FB1FB2A7650091948A /* NSObject+XCMethodSwizzle.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		35ACF5E21FB2921000AB826E = {
+			isa = PBXGroup;
+			children = (
+				35ACF5ED1FB2921100AB826E /* FF14百科 */,
+				35ACF6061FB2921100AB826E /* FF14百科Tests */,
+				35ACF6111FB2921100AB826E /* FF14百科UITests */,
+				35ACF5EC1FB2921100AB826E /* Products */,
+				FE9A6C23051289F129428AA2 /* Pods */,
+				5F1884836A9267B68D27DEF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35ACF5EC1FB2921100AB826E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35ACF5EB1FB2921100AB826E /* FF14百科.app */,
+				35ACF6031FB2921100AB826E /* FF14百科Tests.xctest */,
+				35ACF60E1FB2921100AB826E /* FF14百科UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35ACF5ED1FB2921100AB826E /* FF14百科 */ = {
+			isa = PBXGroup;
+			children = (
+				359A12D11FB2A7650091948A /* CommonClass */,
+				359A12DF1FB2A7650091948A /* Extension */,
+				35ACF5EE1FB2921100AB826E /* AppDelegate.h */,
+				35ACF5EF1FB2921100AB826E /* AppDelegate.m */,
+				35ACF5F11FB2921100AB826E /* ViewController.h */,
+				35ACF5F21FB2921100AB826E /* ViewController.m */,
+				35ACF5F41FB2921100AB826E /* Main.storyboard */,
+				35ACF5F71FB2921100AB826E /* Assets.xcassets */,
+				35ACF5F91FB2921100AB826E /* LaunchScreen.storyboard */,
+				35ACF5FC1FB2921100AB826E /* Info.plist */,
+				35ACF5FD1FB2921100AB826E /* main.m */,
+				359A12CF1FB2A7160091948A /* AppUIInformation.h */,
+				359A12D01FB2A72D0091948A /* AppInformation.h */,
+				359A12CE1FB2A6F10091948A /* PrefixHeader.pch */,
+			);
+			path = "FF14百科";
+			sourceTree = "<group>";
+		};
+		35ACF6061FB2921100AB826E /* FF14百科Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35ACF6071FB2921100AB826E /* FF14__Tests.m */,
+				35ACF6091FB2921100AB826E /* Info.plist */,
+			);
+			path = "FF14百科Tests";
+			sourceTree = "<group>";
+		};
+		35ACF6111FB2921100AB826E /* FF14百科UITests */ = {
+			isa = PBXGroup;
+			children = (
+				35ACF6121FB2921100AB826E /* FF14__UITests.m */,
+				35ACF6141FB2921100AB826E /* Info.plist */,
+			);
+			path = "FF14百科UITests";
+			sourceTree = "<group>";
+		};
+		5F1884836A9267B68D27DEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94425A392BD6E99072D8EE19 /* Pods_FF14__.framework */,
+				909AE5E9BE0A859E3F10D1BF /* Pods_FF14__Tests.framework */,
+				512BAD4E416FD702CAF7F82F /* Pods_FF14__UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9A6C23051289F129428AA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				127171F94041A7028C6EE487 /* Pods-FF14百科.debug.xcconfig */,
+				35860529C253FE4A2E53BE30 /* Pods-FF14百科.release.xcconfig */,
+				90E4F7E2F50A9B83E3BA0163 /* Pods-FF14百科Tests.debug.xcconfig */,
+				880F7801DE9BC5E48620289E /* Pods-FF14百科Tests.release.xcconfig */,
+				5EEE87A5390218F15E1F57C0 /* Pods-FF14百科UITests.debug.xcconfig */,
+				8CA9520394E0E5A8FCE2290A /* Pods-FF14百科UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35ACF5EA1FB2921100AB826E /* FF14百科 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ACF6171FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科" */;
+			buildPhases = (
+				F054044D9D6B746C83ED5734 /* [CP] Check Pods Manifest.lock */,
+				35ACF5E71FB2921100AB826E /* Sources */,
+				35ACF5E81FB2921100AB826E /* Frameworks */,
+				35ACF5E91FB2921100AB826E /* Resources */,
+				F47702F009139B12D8FDDDE4 /* [CP] Embed Pods Frameworks */,
+				6237E38EE0E8573BA211F3A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FF14百科";
+			productName = "FF14百科";
+			productReference = 35ACF5EB1FB2921100AB826E /* FF14百科.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35ACF6021FB2921100AB826E /* FF14百科Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ACF61A1FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科Tests" */;
+			buildPhases = (
+				D773059A486F6EAD2FCE4C25 /* [CP] Check Pods Manifest.lock */,
+				35ACF5FF1FB2921100AB826E /* Sources */,
+				35ACF6001FB2921100AB826E /* Frameworks */,
+				35ACF6011FB2921100AB826E /* Resources */,
+				FB0FBCF6ED28CE4FDE952E4C /* [CP] Embed Pods Frameworks */,
+				99194340CA45A0354852B032 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35ACF6051FB2921100AB826E /* PBXTargetDependency */,
+			);
+			name = "FF14百科Tests";
+			productName = "FF14百科Tests";
+			productReference = 35ACF6031FB2921100AB826E /* FF14百科Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35ACF60D1FB2921100AB826E /* FF14百科UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35ACF61D1FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科UITests" */;
+			buildPhases = (
+				1C0419BB6BF91207C669F37E /* [CP] Check Pods Manifest.lock */,
+				35ACF60A1FB2921100AB826E /* Sources */,
+				35ACF60B1FB2921100AB826E /* Frameworks */,
+				35ACF60C1FB2921100AB826E /* Resources */,
+				A946918A255C00730C58AA15 /* [CP] Embed Pods Frameworks */,
+				D3C809142F11CE41F2F18DED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35ACF6101FB2921100AB826E /* PBXTargetDependency */,
+			);
+			name = "FF14百科UITests";
+			productName = "FF14百科UITests";
+			productReference = 35ACF60E1FB2921100AB826E /* FF14百科UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35ACF5E31FB2921000AB826E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "何建新";
+				TargetAttributes = {
+					35ACF5EA1FB2921100AB826E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					35ACF6021FB2921100AB826E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35ACF5EA1FB2921100AB826E;
+					};
+					35ACF60D1FB2921100AB826E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35ACF5EA1FB2921100AB826E;
+					};
+				};
+			};
+			buildConfigurationList = 35ACF5E61FB2921000AB826E /* Build configuration list for PBXProject "FF14百科" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35ACF5E21FB2921000AB826E;
+			productRefGroup = 35ACF5EC1FB2921100AB826E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35ACF5EA1FB2921100AB826E /* FF14百科 */,
+				35ACF6021FB2921100AB826E /* FF14百科Tests */,
+				35ACF60D1FB2921100AB826E /* FF14百科UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35ACF5E91FB2921100AB826E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ACF5FB1FB2921100AB826E /* LaunchScreen.storyboard in Resources */,
+				359A13021FB2A7650091948A /* MBProgressHUD.bundle in Resources */,
+				35ACF5F81FB2921100AB826E /* Assets.xcassets in Resources */,
+				35ACF5F61FB2921100AB826E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF6011FB2921100AB826E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF60C1FB2921100AB826E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0419BB6BF91207C669F37E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF14百科UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6237E38EE0E8573BA211F3A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科-resources.sh",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99194340CA45A0354852B032 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科Tests/Pods-FF14百科Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A946918A255C00730C58AA15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科UITests/Pods-FF14百科UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C809142F11CE41F2F18DED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科UITests/Pods-FF14百科UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D773059A486F6EAD2FCE4C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF14百科Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F054044D9D6B746C83ED5734 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF14百科-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F47702F009139B12D8FDDDE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/ZFPlayer/ZFPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZFPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科/Pods-FF14百科-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0FBCF6ED28CE4FDE952E4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF14百科Tests/Pods-FF14百科Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35ACF5E71FB2921100AB826E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ACF5F31FB2921100AB826E /* ViewController.m in Sources */,
+				359A13041FB2A7650091948A /* UIView+XCCornerRadius.m in Sources */,
+				359A13031FB2A7650091948A /* FLAnimatedImageView+WebCache.m in Sources */,
+				359A130F1FB2A7650091948A /* UITableView+XCPlaceholderView.m in Sources */,
+				359A13081FB2A7650091948A /* UIButton+timer.m in Sources */,
+				359A13001FB2A7650091948A /* MBProgressHUD+Extension.m in Sources */,
+				359A13071FB2A7650091948A /* UIView+Layout.m in Sources */,
+				359A130E1FB2A7650091948A /* UIAlertController+Color.m in Sources */,
+				359A130A1FB2A7650091948A /* NSArray+SafeExtension.m in Sources */,
+				359A13101FB2A7650091948A /* NSObject+XCMethodSwizzle.m in Sources */,
+				359A12FD1FB2A7650091948A /* BaseViewController.m in Sources */,
+				359A12FE1FB2A7650091948A /* BaseNavigationController.m in Sources */,
+				359A130C1FB2A7650091948A /* UICollectionView+XCPlaceholderView.m in Sources */,
+				359A13011FB2A7650091948A /* BaseTabBarController.m in Sources */,
+				359A130D1FB2A7650091948A /* UIView+XCHelper.m in Sources */,
+				35ACF5FE1FB2921100AB826E /* main.m in Sources */,
+				359A130B1FB2A7650091948A /* UILabel+XCHelper.m in Sources */,
+				359A12FC1FB2A7650091948A /* XCNormalFooter.m in Sources */,
+				35ACF5F01FB2921100AB826E /* AppDelegate.m in Sources */,
+				359A13091FB2A7650091948A /* NSString+XCHelper.m in Sources */,
+				359A12FF1FB2A7650091948A /* XCNormalHeader.m in Sources */,
+				359A13061FB2A7650091948A /* UIButton+XCHelperBlock.m in Sources */,
+				359A13051FB2A7650091948A /* UIImage+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF5FF1FB2921100AB826E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ACF6081FB2921100AB826E /* FF14__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35ACF60A1FB2921100AB826E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35ACF6131FB2921100AB826E /* FF14__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35ACF6051FB2921100AB826E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35ACF5EA1FB2921100AB826E /* FF14百科 */;
+			targetProxy = 35ACF6041FB2921100AB826E /* PBXContainerItemProxy */;
+		};
+		35ACF6101FB2921100AB826E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35ACF5EA1FB2921100AB826E /* FF14百科 */;
+			targetProxy = 35ACF60F1FB2921100AB826E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35ACF5F41FB2921100AB826E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ACF5F51FB2921100AB826E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35ACF5F91FB2921100AB826E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35ACF5FA1FB2921100AB826E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35ACF6151FB2921100AB826E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35ACF6161FB2921100AB826E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35ACF6181FB2921100AB826E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127171F94041A7028C6EE487 /* Pods-FF14百科.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FF14百科/PrefixHeader.pch";
+				INFOPLIST_FILE = "FF14百科/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.FF14WiKi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35ACF6191FB2921100AB826E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35860529C253FE4A2E53BE30 /* Pods-FF14百科.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FF14百科/PrefixHeader.pch";
+				INFOPLIST_FILE = "FF14百科/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hejianxin.FF14WiKi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		35ACF61B1FB2921100AB826E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E4F7E2F50A9B83E3BA0163 /* Pods-FF14百科Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = "FF14百科Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hejianxin.FF14--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF14百科.app/FF14百科";
+			};
+			name = Debug;
+		};
+		35ACF61C1FB2921100AB826E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880F7801DE9BC5E48620289E /* Pods-FF14百科Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = "FF14百科Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hejianxin.FF14--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF14百科.app/FF14百科";
+			};
+			name = Release;
+		};
+		35ACF61E1FB2921100AB826E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EEE87A5390218F15E1F57C0 /* Pods-FF14百科UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = "FF14百科UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hejianxin.FF14--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FF14百科";
+			};
+			name = Debug;
+		};
+		35ACF61F1FB2921100AB826E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA9520394E0E5A8FCE2290A /* Pods-FF14百科UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RD7J4DU62A;
+				INFOPLIST_FILE = "FF14百科UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hejianxin.FF14--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FF14百科";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35ACF5E61FB2921000AB826E /* Build configuration list for PBXProject "FF14百科" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ACF6151FB2921100AB826E /* Debug */,
+				35ACF6161FB2921100AB826E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ACF6171FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ACF6181FB2921100AB826E /* Debug */,
+				35ACF6191FB2921100AB826E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ACF61A1FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ACF61B1FB2921100AB826E /* Debug */,
+				35ACF61C1FB2921100AB826E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35ACF61D1FB2921100AB826E /* Build configuration list for PBXNativeTarget "FF14百科UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35ACF61E1FB2921100AB826E /* Debug */,
+				35ACF61F1FB2921100AB826E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35ACF5E31FB2921000AB826E /* Project object */;
+}
